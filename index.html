@@ -3,33 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Práctica Eventos HTML</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body onload="alert('Se ha cargado completamente la página');">
+<body onload="//alert('Se ha cargado completamente la página');">
     <h1>Hello World!</h1>
-    <img src="image.gif" onerror="alert('Error al cargar la imagen');" alt="">
 
-    Enter yout name: <input type="text" value="OnBlur" name="frame" id="fname" onblur="alert('validar campo');" required="required">
-    <br>
-    <select onchange="alert('Cambio');">
-        <option value="">Audi</option>
-        <option value="">BMW</option>
-        <option value="">Mercedes</option>
-        <option value="">Volvo</option>
-    </select>
-    <br>
-    <!-- First name: <input type="text" onfocus="alert('Campo');"> -->
-    <br>
-    Some Text: <input type="text" value="OnSelect" onselect="alert('Se ha seleccionado el texto');">
-    <br>
-    OnkeyDown: <input type="text" onkeydown="alert('Presionando Tecla');">
-    <br>
-    OnKeyUp: <input type="text" onkeyup="alert('Tecla Presionada');">
-    <br>
-    OnOver: <button onmouseover="alert('Over Button');">Over Me!</button>
-    <br>
-    Eventos del Portapapeles: <input type="text" oncopy="alert('Has copiado el texto');" oncut="alert('Has cortado texto');" onpaste="alert('Has pegado texto');">
+    <!-- <img src="image.gif" onerror="alert('Error al cargar la imagen');" alt=""> -->
 
+    <form action="" id="formulario1">
+        Enter your name: <input type="text" value="OnBlur" name="frame" id="fname" onblur="alert('validar campo');" required="required">
+        <br>
+        <select onchange="alert('Cambio');">
+            <option value="">Audi</option>
+            <option value="">BMW</option>
+            <option value="">Mercedes</option>
+            <option value="">Volvo</option>
+        </select>
+        <br>
+        <!-- First name: <input type="text" onfocus="alert('Campo');"> -->
+        <br>
+        Some Text: <input type="text" value="OnSelect" onselect="alert('Se ha seleccionado el texto');">
+        <br>
+        OnkeyDown: <input type="text" onkeydown="alert('Presionando Tecla');">
+        <br>
+        OnKeyUp: <input type="text" onkeyup="alert('Tecla Presionada');">
+        <br>
+        OnOver: <button onmouseover="alert('Over Button');">Over Me!</button>
+        <br>
+        Eventos del Portapapeles: <input type="text" oncopy="alert('Has copiado el texto');" oncut="alert('Has cortado texto');" onpaste="alert('Has pegado texto');">
+    </form>
 
+    <p id="para1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, repudiandae, nam suscipit ipsam at ut maxime assumenda sunt pariatur vitae sed tempore consequatur cupiditate fugiat voluptates quo eligendi. Quidem, asperiores.
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur optio praesentium deserunt animi dolores voluptatum labore nesciunt, quasi nulla cupiditate ullam sequi facilis neque nihil id consectetur, similique eveniet deleniti?</p>
 
+    <h1 class="center">Título</h1>
+    <p class="center">Párrafo</p>
+
+    <h1 class="center">Título</h1>
+    <p class="center">Párrafo Rojo</p>
+
+    <p class="center large">Párrafo con dos Clasesotas CSS</p>
+
+    <div class="intro">
+        <p id="firstname">My name is Donald</p>
+        <p id="hometown">I live in Duckburg</p>
+    </div>
+
+    <p>My best firend is Mickey</p>
+
+    <div>
+        <h2>My Name is Donald</h2>
+        <p>I live in Duckburg</p>
+    </div>
+    <p>My best Friend is Mickey</p>
+
+    <a href="https://www.google.com">Google</a>
+    <a href="http://www.disney.com" target="_blank">Disney</a>
+    <a href="http://www.wikipedia.org" target="_self">Wikipedia</a>
+    <br>
+    <a href="#">Enlace de prueba</a>
 </body>
 </html>
+
+

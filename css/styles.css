@@ -1,0 +1,63 @@
+
+
+div * {
+    background-color: yellow;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color:yellow;
+}
+
+#para1 {
+    text-align: center;
+    color: green;
+}
+
+#formulario1 {
+    text-align: left;
+    border: 4px solid black;
+    width : 200px;
+    margin: 0;
+    background-color: white;
+    color: black;
+
+    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+    -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+    box-sizing: border-box;
+
+}
+
+p.center{
+    text-align: center;
+    color:red;
+}
+.center{
+    text-align: center;
+    color: red;
+}
+
+.large{
+    font-size: 40px;
+}
+
+div p{
+    color: lawngreen;
+    background: darkblue;
+
+}
+
+[target =_blank] {
+    background-color: yellow;
+}
