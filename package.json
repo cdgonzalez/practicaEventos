@@ -1,0 +1,11 @@
+{
+  "name": "practica-eventos",
+  "version": "1.0.0",
+  "description": "Practica de eventos en HML\u001b[D\u001b[DtML\u001b[D\u001b[T\u001b[F\u001b[B",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Daniel Gonzalez Ruiz",
+  "license": "ISC"
+}

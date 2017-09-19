@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica Eventos HTML</title>
+</head>
+<body onload="alert('Se ha cargado completamente la página');">
+    <h1>Hello World!</h1>
+    <img src="image.gif" onerror="alert('Error al cargar la imagen');" alt="">
+
+    Enter yout name: <input type="text" value="OnBlur" name="frame" id="fname" onblur="alert('validar campo');" required="required">
+    <br>
+    <select onchange="alert('Cambio');">
+        <option value="">Audi</option>
+        <option value="">BMW</option>
+        <option value="">Mercedes</option>
+        <option value="">Volvo</option>
+    </select>
+    <br>
+    <!-- First name: <input type="text" onfocus="alert('Campo');"> -->
+    <br>
+    Some Text: <input type="text" value="OnSelect" onselect="alert('Se ha seleccionado el texto');">
+    <br>
+    OnkeyDown: <input type="text" onkeydown="alert('Presionando Tecla');">
+    <br>
+    OnKeyUp: <input type="text" onkeyup="alert('Tecla Presionada');">
+    <br>
+    OnOver: <button onmouseover="alert('Over Button');">Over Me!</button>
+    <br>
+    Eventos del Portapapeles: <input type="text" oncopy="alert('Has copiado el texto');" oncut="alert('Has cortado texto');" onpaste="alert('Has pegado texto');">
+
+
+
+</body>
+</html>
