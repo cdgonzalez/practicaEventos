@@ -61,3 +61,38 @@ div p{
 [target =_blank] {
     background-color: yellow;
 }
+
+#conten {
+    height: 100px;
+    max-width: 500px;
+    background-color: powderblue;
+}
+
+#primera {
+    width: 100%;
+    display: block;
+    border: 5px solid red;
+}
+
+#head1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+}
+
+#head2 {
+    text-transform: lowercase;
+    text-align: left;
+}
+
+#head3 {
+    text-transform: capitalize;
+    text-align: right;
+}
+
+#justf {
+    text-align: justify;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 10px;
+}
